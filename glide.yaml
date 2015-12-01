@@ -1,0 +1,26 @@
+package: main
+import:
+  - package: github.com/gin-gonic/gin
+    ref:     52fcc5dbf6e94df33ad313858fb94b713e9d1b4a
+    repo:    https://github.com/gin-gonic/gin
+    vcs:     git
+  - package: github.com/gin-gonic/contrib
+    ref:     14f66d54cdb96059bafca98665bcc6d9df4951f2
+    repo:    https://github.com/gin-gonic/contrib
+    vcs:     git
+  - package: github.com/yvasiyarov/gorelic
+    ref:     91d90dde5a9c1684e5312f07b220f3f77680c0a0
+    repo:    https://github.com/yvasiyarov/gorelic
+    vcs:     git
+  - package: github.com/yvasiyarov/go-metrics
+    ref:     c25f46c4b94079672242ec48a545e7ca9ebe3aec
+    repo:    https://github.com/yvasiyarov/go-metrics
+    vcs:     git
+  - package: github.com/yvasiyarov/newrelic_platform_go
+    ref:     db03d6dfd965ebc22dbfd910567c641b326ff055
+    repo:    https://github.com/yvasiyarov/newrelic_platform_go
+    vcs:     git
+  - package: gopkg.in/airbrake/gobrake.v2
+    ref:     e5efbe565a5a63d8aafee7efa2f4fdd7f42b7bd3
+    repo:    https://gopkg.in/airbrake/gobrake.v2
+    vcs:     git

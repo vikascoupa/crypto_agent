@@ -1,0 +1,9 @@
+{
+	"Dsn":"root:@tcp(:3306)/",
+	"BindAddress":":8080",
+	"MaxConnections":"500",
+	"NewRelicLicenseKey":"FIXME",
+	"AirbrakeProjectID":"1234567",
+	"AirbrakeProjectKey":"FIXME",
+	"Verbose":"true"
+}
