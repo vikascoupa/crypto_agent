@@ -5,9 +5,12 @@ The idea is that this agent will provide encryption, decryption, key generation,
 
 # Running
 curl http://localhost:8080/v1/encrypt?cleartext=clearcase
+
 curl http://localhost:8080/v1/decrypt?ciphertext="biSM40LNI55wY1ftFkHPQc2DhbrRHB3wh9wjUQ=="
 
 # Load testing
 vegeta attack -targets=./load.txt -rate 100 > ./results
+
 cat results | vegeta report -reporter=json > ./metrics.json
+
 cat results | vegeta report -reporter=plot > plot.html
